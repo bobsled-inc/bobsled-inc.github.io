@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    background-color: #FAFAFA;
+  }
+
+  h1 {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Cabin', Helvetica, sans-serif;
+    font-size: 2em;
+  }
+
+  p {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Cabin', Helvetica, sans-serif;
+    font-size: 1.5em;
+  }
+
+  a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    min-width: 25em;
+  }
+
+  #cloud1 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    max-width: 40%;
+  }
+
+  #cloud2 {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    max-width: 40%;
+  }
+</style>
+
+<body>
+  <img id='cloud1' src="cloud1.svg" alt="a cloud" />
+  <div class="middle">
+    <img src="bobsled_logo.svg" alt="Bobsled" />
+    <h1>The world’s first data distribution platform</h2>
+      <p><a href="mailto:careers@bobsled.co">Join the team</a></p>
+  </div>
+  <img id='cloud2' src="cloud2.svg" alt="another cloud" />
+</body>
+
+</html>
